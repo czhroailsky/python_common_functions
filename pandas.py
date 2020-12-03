@@ -38,3 +38,7 @@ fig = ff.create_annotated_heatmap(
 )
 
 fig.show()
+
+## from categorical to numerical
+
+pd.Categorical(df[ predictor ]).codes
